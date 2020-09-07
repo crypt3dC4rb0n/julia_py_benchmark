@@ -3,9 +3,9 @@ using Images
 
 function im2arr(im_path)
     im = load(im_path)
-    im_float_arr = permutedims(channelview(im), (2, 3, 1))
-    im_float_arr = Float64.(im_float_arr)
-    return im_float_arr
+    im_int_arr = permutedims(channelview(im), (2, 3, 1))
+    # im_int_arr = Float64.(im_int_arr)
+    return im_int_arr
 end
 
 function color_balance(im_arr, r, g, b)
