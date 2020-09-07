@@ -1,7 +1,9 @@
 # Benchmark done on a set of 4 images of different resolutions
 
 <br>
+
 **Results based of on Julia v1.5.1 release**
+
 <br>
 
 ##### Julia built in
