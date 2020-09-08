@@ -9,16 +9,17 @@
 ##### Julia built in
 
 ```
-  memory estimate:  423.00 MiB
-  allocs estimate:  869
+  memory estimate:  45.36 MiB
+  allocs estimate:  814
   --------------
-  minimum time:     463.793 ms (2.48% GC)
-  median time:      471.289 ms (3.76% GC)
-  mean time:        489.838 ms (6.07% GC)
-  maximum time:     640.081 ms (27.37% GC)
+  minimum time:     172.970 ms (0.24% GC)
+  median time:      179.285 ms (0.23% GC)
+  mean time:        178.631 ms (0.24% GC)
+  maximum time:     187.034 ms (0.23% GC)
   --------------
-  samples:          11
+  samples:          28
   evals/sample:     1
+
 
 ```
 
@@ -27,15 +28,15 @@
 ##### Julia Loop
 
 ```
-  memory estimate:  423.00 MiB
-  allocs estimate:  869
+  memory estimate:  45.36 MiB
+  allocs estimate:  838
   --------------
-  minimum time:     460.458 ms (2.60% GC)
-  median time:      475.485 ms (3.26% GC)
-  mean time:        503.001 ms (7.19% GC)
-  maximum time:     741.515 ms (29.89% GC)
+  minimum time:     170.015 ms (0.26% GC)
+  median time:      170.599 ms (0.26% GC)
+  mean time:        171.115 ms (0.26% GC)
+  maximum time:     177.196 ms (0.25% GC)
   --------------
-  samples:          10
+  samples:          30
   evals/sample:     1
 
 ```

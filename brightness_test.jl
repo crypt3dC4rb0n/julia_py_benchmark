@@ -26,7 +26,7 @@ file_paths = ["images/001.jpg", "images/002.jpg", "images/003.jpg", "images/004.
 
 benchmark_dict = Dict()
 
-j_bench = @benchmark adjust_brightness(file_paths, 50)
+j_bench = @benchmark adjust_brightness(file_paths, N0f8(50))
 benchmark_dict["Julia"] = minimum(j_bench.times) / 1e6
 
 j_loop_bench = @benchmark adjust_brightness_loop(file_paths, 50)
